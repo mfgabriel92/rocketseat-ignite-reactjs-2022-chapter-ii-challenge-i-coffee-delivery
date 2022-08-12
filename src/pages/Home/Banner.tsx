@@ -38,7 +38,7 @@ function Banner() {
           </Flex>
         </Flex>
       </Flex>
-      <Image src="public/coffee-cup.png" alt="Coffee Cup" width="456px" />
+      <Image src="/coffee-cup.png" alt="Coffee Cup" width="456px" />
     </Flex>
   );
 }
