@@ -28,6 +28,8 @@ function CartProvider({ children }: { children: ReactElement }) {
     if (storedCart) {
       return JSON.parse(storedCart);
     }
+
+    return { items: [] };
   });
 
   function updateCart(item: CoffeeItem) {

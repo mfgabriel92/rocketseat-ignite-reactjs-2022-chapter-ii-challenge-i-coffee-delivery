@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "http://localhost:5173/api/v1",
+  baseURL: "https://coffee-delivery-challenge.free.beeceptor.com",
 });
 
 export default api;
