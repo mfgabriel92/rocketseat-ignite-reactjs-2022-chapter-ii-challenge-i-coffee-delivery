@@ -12,19 +12,6 @@ function Header() {
       <Logo />
 
       <Flex gap="0.5rem">
-        <NavLink to="/">
-          <Button
-            color="purple.900"
-            fontSize="md"
-            fontWeight="normal"
-            backgroundColor="purple.100"
-            leftIcon={<Icon as={MapPin} color="currentColor" weight="fill" fontSize="1.375rem" />}
-            role="group"
-            _hover={{ backgroundColor: "purple.900", color: "white" }}
-          >
-            Davao City, PH
-          </Button>
-        </NavLink>
         <NavLink to="/checkout">
           <Flex
             flex="1"
